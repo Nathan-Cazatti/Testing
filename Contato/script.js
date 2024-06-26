@@ -35,5 +35,5 @@ function enviar(){
 
     var linkWhatsApp = "https://wa.me/" + numeroTelefone + "?text=Nome Do Receptor(A): " + nomeGlobal + " - " + mensagemGlobal + " - " + formatar(date)
 
-    window.open(linkWhatsApp "_blank")
+    window.open(linkWhatsApp, "_blank")
 }
