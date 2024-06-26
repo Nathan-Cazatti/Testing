@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.batata{
+    color: blue;
+}
+
+.nome{
+    background-color:black ;
+    color: white;
+}
+
+button{
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border: 2px solid cyan; 
+    background-color: cyan;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: black 0px 5px 15px;
+}
