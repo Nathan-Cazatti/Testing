@@ -31,5 +31,9 @@ function conferirMensagemWhatsApp(){
 
 
 function enviar(){
-   console.log(nomeGlobal, mensagemGlobal, dateGlobal)
+    var numeroTelefone = "5541987896863"
+
+    var linkWhatsApp = "https://wa.me/" + numeroTelefone + "?text=Nome Do Receptor(A): " + nomeGlobal + " - " + mensagemGlobal + " - " + formatar(date)
+
+    window.open(linkWhatsApp "_blank")
 }
